@@ -69,7 +69,7 @@ const Navbar = () => {
         </a>
 
         {/* Links */}
-        <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+        <div className="nav-links" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
           <a href="#" style={{
             color: 'var(--white)',
             fontWeight: '500',

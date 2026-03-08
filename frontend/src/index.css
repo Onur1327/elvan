@@ -164,3 +164,60 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary); 
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .hero-container {
+    height: auto !important;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .hero-content {
+    padding: 2rem !important;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 1rem !important;
+  }
+
+  .nav-links a:not(.btn) {
+    display: none !important;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .about-content h2 {
+    font-size: 1.8rem !important;
+  }
+}

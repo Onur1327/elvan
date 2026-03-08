@@ -33,7 +33,7 @@ const Hero = () => {
             Kaliteyi ve şıklığı bir araya getiren züccaciye, porselen ve ev tasarım ürünleriyle 
             yaşam alanlarınıza ilham verin. Yılların tecrübesiyle mağazamızda sizleri bekliyoruz.
           </p>
-          <div style={{ display: 'flex', gap: '1rem' }}>
+          <div className="hero-buttons" style={{ display: 'flex', gap: '1rem' }}>
             <a href="#kategoriler" className="btn btn-primary">
               Koleksiyonları Keşfet
             </a>
