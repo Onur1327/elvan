@@ -6,11 +6,11 @@ const Footer = () => {
   // Bu bilgileri değiştirmek isterseniz direkt olarak bu dosyayı güncelleyebilirsiniz.
   const storeInfo = {
     name: "ON9 AVM",
-    address: "Bahçelievler Mahallesi Mehmet Akif Ersoy Caddesi No:120/A",
-    phone: "0545 732 10 56",
-    email: "bilgi@on9avm.com",
-    working_hours: "Pazartesi - Cumartesi: 09:00 - 20:00",
-    map_embed_url: "" // Google Haritalar embed URL'sini buraya yapıştırabilirsiniz
+    address: "Bahçelievler Mahallesi Mehmet Akif Ersoy Caddesi No:120/A Çorum-Merkez",
+    phone: "0545 732 10 56 - Elvan ÇITAK",
+    email: "on9avm@gmail.com",
+    working_hours: "Haftanın Her Günü 09:00 - 21:00",
+    map_embed_url: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189.50158206349622!2d34.97559822802745!3d40.54102990334342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40872ae806425f4d%3A0xf06f4ffafc8b0f98!2sBah%C3%A7elievler%2C%20Mehmet%20Akif%20Ersoy%20Cd.%20120%2FA%2C%2019100%20%C3%87orum%20Merkez%2F%C3%87orum!5e0!3m2!1str!2str!4v1772969537915!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>` // Google Haritalar embed URL'sini buraya yapıştırabilirsiniz
   };
 
   return (
