@@ -205,12 +205,12 @@ button {
     text-align: center;
   }
 
-  .nav-links {
-    gap: 1rem !important;
+  .desktop-links {
+    display: none !important;
   }
 
-  .nav-links a:not(.btn) {
-    display: none !important;
+  .mobile-menu-btn {
+    display: block !important;
   }
 
   .section-title {

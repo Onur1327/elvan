@@ -35,7 +35,7 @@ const Hero = () => {
           </p>
           <div className="hero-buttons" style={{ display: 'flex', gap: '1rem' }}>
             <a href="#kategoriler" className="btn btn-primary">
-              Koleksiyonları Keşfet
+              Ürünlerimizi Keşfet
             </a>
             <a href="#iletisim" className="btn btn-outline" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
               Mağazamızı Ziyaret Et <ArrowRight size={18} />
