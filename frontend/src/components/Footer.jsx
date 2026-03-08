@@ -6,7 +6,7 @@ const Footer = () => {
   // Bu bilgileri değiştirmek isterseniz direkt olarak bu dosyayı güncelleyebilirsiniz.
   const storeInfo = {
     name: "ON9 AVM",
-    address: "Lütfen adres bilgilerinizi buraya yazın.", // Örnek: "Atatürk Mah. İstiklal Cad. No:1 İstanbul"
+    address: "Bahçelievler Mahallesi Mehmet Akif Ersoy Caddesi No:120/A",
     phone: "0545 732 10 56",
     email: "bilgi@on9avm.com",
     working_hours: "Pazartesi - Cumartesi: 09:00 - 20:00",
