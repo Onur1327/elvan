@@ -1,30 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
-  const [storeInfo, setStoreInfo] = useState({
-    name: "Züccaciye Mağazası",
-    address: "Yükleniyor...",
-    phone: "Yükleniyor...",
-    email: "",
-    working_hours: "",
-    map_embed_url: ""
-  });
-
-  useEffect(() => {
-    // Backend API'den (Django) mağaza iletişim bilgilerini çekme
-    const fetchStoreInfo = async () => {
-      try {
-        const response = await axios.get('http://127.0.0.1:8000/api/store-info/');
-        setStoreInfo(response.data);
-      } catch (error) {
-        console.error("İletişim bilgileri alınamadı:", error);
-      }
-    };
-
-    fetchStoreInfo();
-  }, []);
+  // İletişim bilgileri artık doğrudan burada (React içinde) bulunuyor.
+  // Bu bilgileri değiştirmek isterseniz direkt olarak bu dosyayı güncelleyebilirsiniz.
+  const storeInfo = {
+    name: "ON9 AVM",
+    address: "Lütfen adres bilgilerinizi buraya yazın.", // Örnek: "Atatürk Mah. İstiklal Cad. No:1 İstanbul"
+    phone: "0545 732 10 56",
+    email: "bilgi@on9avm.com",
+    working_hours: "Pazartesi - Cumartesi: 09:00 - 20:00",
+    map_embed_url: "" // Google Haritalar embed URL'sini buraya yapıştırabilirsiniz
+  };
 
   return (
     <footer id="iletisim" style={{ backgroundColor: 'var(--bg-dark)', color: 'var(--white)', paddingTop: '5rem' }}>
