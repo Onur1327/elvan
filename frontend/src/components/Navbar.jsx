@@ -39,38 +39,19 @@ const Navbar = () => {
 
         {/* Logo */}
         <a href="#" onClick={closeMenu} style={{
-          fontFamily: 'var(--font-body)',
           textDecoration: 'none',
           display: 'flex',
-          alignItems: 'center',
-          letterSpacing: '1px'
+          alignItems: 'center'
         }}>
-          <span style={{
-            color: 'var(--primary)',
-            fontSize: '3rem',
-            fontWeight: '900',
-            lineHeight: '1'
-          }}>ON</span>
-          <span style={{
-            color: scrolled || mobileMenuOpen ? 'var(--secondary)' : 'var(--white)',
-            fontSize: '3rem',
-            fontWeight: '900',
-            lineHeight: '1',
-            marginLeft: '2px',
-            transition: 'color 0.3s ease'
-          }}>9</span>
-          <span style={{
-            backgroundColor: 'var(--primary)',
-            color: '#000',
-            fontSize: '1.2rem',
-            padding: '4px 8px',
-            borderRadius: '4px',
-            marginLeft: '8px',
-            textTransform: 'uppercase',
-            fontWeight: '800',
-            lineHeight: '1',
-
-          }}>AVM</span>
+          <img 
+            src="/images/logo.jpeg" 
+            alt="ON9 AVM Logo" 
+            style={{ 
+              height: '60px', 
+              width: 'auto',
+              borderRadius: '50%' 
+            }} 
+          />
         </a>
 
         {/* Desktop Links */}
